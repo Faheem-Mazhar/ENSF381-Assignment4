@@ -1,3 +1,5 @@
+import course1 from "../images/course1.jpg"
+
 const courses = [
     {
         id: 1,
@@ -5,7 +7,7 @@ const courses = [
         instructor: "Dr.John Smith",
         description: "Master HTML, CSS, and JavaScript.",
         duration: "8 weeks",
-        image: "images/course1.jpg"
+        image: course1
     },
     {
         id: 2,
@@ -13,15 +15,15 @@ const courses = [
         instructor: "Dr.Jane Doe",
         description: "Learn the fundamentals of OOP and design patterns.",
         duration: "8 weeks",
-        image: "images/course2.jpg"
+        image: course1
     },
     {
         id: 3,
         name: "Data Structures",
         instructor: "Prof.John Doe",
-        description: "Study fundamental data structures and algorithms.",
+        description: "Fundamentals of data structures and algorithms.",
         duration: "8 weeks",
-        image: "images/course3.jpg"
+        image: course1
     },
     {
         id: 4,
@@ -29,7 +31,7 @@ const courses = [
         instructor: "Dr.Emily Brown",
         description: "Advanced calculus concepts and applications.",
         duration: "8 weeks",
-        image: "images/course4.jpg"
+        image: course1
     },
     {
         id: 5,
@@ -37,7 +39,7 @@ const courses = [
         instructor: "Dr.David Wilson",
         description: "Introduction to ML algorithms and applications.",
         duration: "8 weeks",
-        image: "images/course5.jpg"
+        image: course1
     },
     {
         id: 6,
@@ -45,7 +47,7 @@ const courses = [
         instructor: "Dr.Lisa Anderson",
         description: "Computer networks and communication protocols.",
         duration: "8 weeks",
-        image: "images/course6.jpg"
+        image: course1
     },
     {
         id: 7,
@@ -53,7 +55,7 @@ const courses = [
         instructor: "Dr.Robert Taylor",
         description: "Understanding computer architecture and hardware.",
         duration: "8 weeks",
-        image: "images/course7.jpg"
+        image: course1
     },
     {
         id: 8,
@@ -61,7 +63,7 @@ const courses = [
         instructor: "Dr.James Miller",
         description: "Fundamental physics principles and applications.",
         duration: "8 weeks",
-        image: "images/course8.jpg"
+        image: course1
     },
     {
         id: 9,
@@ -69,7 +71,7 @@ const courses = [
         instructor: "Dr.Patricia Lee",
         description: "Design and programming of embedded systems.",
         duration: "8 weeks",
-        image: "images/course9.jpg"
+        image: course1
     },
     {
         id: 10,
@@ -77,7 +79,7 @@ const courses = [
         instructor: "Dr.Jennifer White",
         description: "Fundamental economics principles for micro and macro analysis",
         duration: "8 weeks",
-        image: "images/course10.jpg"
+        image: course1
     }
 ];
 export default courses;
