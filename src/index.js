@@ -1,3 +1,7 @@
+// Completed by:
+// Moiz Bhatti: 30163705
+// Faheem Mazhar: 30140922
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
